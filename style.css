@@ -14,6 +14,18 @@ header {
     background-color: gray;
 }
 
+span#burguer {
+   background-color: gray;
+   color: aliceblue;
+   display: block;
+   text-align: center;
+}
+
+span#burguer:hover{
+    color: yellowgreen;
+    cursor: pointer;
+}
+
 main {
     width: 80vw;
     background-color: blanchedalmond;
@@ -39,7 +51,7 @@ header > h1 {
     text-align: center;
 }
 menu {
-    display: block;
+    display: none;
     
 }
 
